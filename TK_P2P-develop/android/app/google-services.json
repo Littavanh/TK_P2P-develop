@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "1091259995819",
+    "project_id": "p2p-tk-lwc",
+    "storage_bucket": "p2p-tk-lwc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1091259995819:android:52659eed50725b7a5149ee",
+        "android_client_info": {
+          "package_name": "com.example.demo_fcm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1091259995819-b879hcvt935r20intbl43lgqjhqnvo5c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.demo_fcm",
+            "certificate_hash": "72b0ba6c4b0d14d075588bdefa96a59337fa9ebe"
+          }
+        },
+        {
+          "client_id": "1091259995819-6hsoh5s05h1vtq6lidfis84qc86lik9v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0CEESd8MwJ8nLwg0entwFe0JZBr3PqW4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1091259995819-6hsoh5s05h1vtq6lidfis84qc86lik9v.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1091259995819-hjj2k0ntsjpj7defh9rnmmrbosupikf6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.tkgroup.p2p"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1091259995819:android:3545973dd738ecc25149ee",
+        "android_client_info": {
+          "package_name": "com.tkgroup.p2p"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1091259995819-8rr18k28ka4jjmmsarkvjgpjq5kmmood.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tkgroup.p2p",
+            "certificate_hash": "72b0ba6c4b0d14d075588bdefa96a59337fa9ebe"
+          }
+        },
+        {
+          "client_id": "1091259995819-6hsoh5s05h1vtq6lidfis84qc86lik9v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0CEESd8MwJ8nLwg0entwFe0JZBr3PqW4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1091259995819-6hsoh5s05h1vtq6lidfis84qc86lik9v.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1091259995819-hjj2k0ntsjpj7defh9rnmmrbosupikf6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.tkgroup.p2p"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
