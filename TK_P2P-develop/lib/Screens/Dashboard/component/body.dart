@@ -324,36 +324,65 @@ class _BodyState extends State<Body> {
                                 Container(
                                   margin: EdgeInsets.only(top: 40),
                                   // margin: EdgeInsets.only(top: size.height * 0.1),
-                                  child: Row(
-                                    crossAxisAlignment:
-                                        CrossAxisAlignment.start,
-                                    mainAxisAlignment:
-                                        MainAxisAlignment.spaceEvenly,
+                                  child: Column(
                                     children: [
-                                      Padding(
-                                        padding: const EdgeInsets.all(5.0),
-                                        child: myTextItems(
-                                          getTranslated(context, "BuyingRate"),
-                                          dashData.buyUsd != null
-                                              ? dashData.buyUsd.toString()
-                                              : "-",
-                                          dashData.buyBaht != null
-                                              ? dashData.buyBaht.toString()
-                                              : "-",
-                                        ),
+                                      Row(
+                                        crossAxisAlignment:
+                                            CrossAxisAlignment.start,
+                                        mainAxisAlignment:
+                                            MainAxisAlignment.spaceEvenly,
+                                        children: [
+                                          Padding(
+                                            padding: const EdgeInsets.all(5.0),
+                                            child: Container(
+                                              child: DropdownButton(
+                                                hint: const Text('select Business Unit',style: TextStyle(fontSize: 28),),
+                                                style: const TextStyle(
+                                                    color:
+                                                        Colors.deepPurpleAccent),
+                                                items: [],
+                                                onChanged: (value) {},
+                                              ),
+                                            ),
+                                          ),
+                                        ],
                                       ),
-                                      Padding(
-                                          padding: const EdgeInsets.all(5.0),
-                                          child: myTextItems(
-                                            getTranslated(
-                                                context, "SellingRate"),
-                                            dashData.sellUsd != null
-                                                ? dashData.sellUsd.toString()
-                                                : "-",
-                                            dashData.sellBaht != null
-                                                ? dashData.sellBaht.toString()
-                                                : "-",
-                                          )),
+                                      Row(
+                                        crossAxisAlignment:
+                                            CrossAxisAlignment.start,
+                                        mainAxisAlignment:
+                                            MainAxisAlignment.spaceEvenly,
+                                        children: [
+                                          Padding(
+                                            padding: const EdgeInsets.all(5.0),
+                                            child: myTextItems(
+                                              getTranslated(
+                                                  context, "BuyingRate"),
+                                              dashData.buyUsd != null
+                                                  ? dashData.buyUsd.toString()
+                                                  : "-",
+                                              dashData.buyBaht != null
+                                                  ? dashData.buyBaht.toString()
+                                                  : "-",
+                                            ),
+                                          ),
+                                          Padding(
+                                              padding:
+                                                  const EdgeInsets.all(5.0),
+                                              child: myTextItems(
+                                                getTranslated(
+                                                    context, "SellingRate"),
+                                                dashData.sellUsd != null
+                                                    ? dashData.sellUsd
+                                                        .toString()
+                                                    : "-",
+                                                dashData.sellBaht != null
+                                                    ? dashData.sellBaht
+                                                        .toString()
+                                                    : "-",
+                                              )),
+                                        ],
+                                      ),
                                     ],
                                   ),
                                 ),
